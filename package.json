@@ -6,9 +6,9 @@
     "vuepress-theme-hope": "2.0.0-beta.230"
   },
   "scripts": {
-    "build": "vuepress build docs",
-    "clean-dev": "vuepress dev docs --clean-cache",
-    "dev": "vuepress dev docs",
-    "update-package": "yarn dlx vp-update"
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "yarn dlx vp-update"
   }
 }
