@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.64",
+    "@vuepress/client": "2.0.0-beta.64",
+    "vue": "^3.2.47",
+    "vuepress-theme-hope": "2.0.0-beta.230"
+  },
+  "scripts": {
+    "build": "vuepress build docs",
+    "clean-dev": "vuepress dev docs --clean-cache",
+    "dev": "vuepress dev docs",
+    "update-package": "yarn dlx vp-update"
+  }
+}
